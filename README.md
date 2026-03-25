@@ -1,4 +1,17 @@
-# spatiotemporal_residual_load_modeling_GNO
-Spatio-temporal Residual Load Modeling via Graph Neural Operators
+# spatio_temporal_residual_load_gno
 
-With the growing share of renewable energy sources in the electricity supply, monitoring residual load has become increasingly important for assessing system balance, flexibility requirements, and security of supply. A major challenge is the modeling and prediction of residual load given its weather-driven variability and the spatial interactions between interconnected control zones. Existing approaches primarily focus on forecasting at future horizons and often rely on electrical measurements, while treating residual load as a largely non-spatial quantity. This work presents a data-driven spatio-temporal modeling approach to residual load based exclusively on exogenous environmental and temporal covariates, formulated as an operator learning problem. The graph neural operator framework is applied to enable the joint learning of spatial dependencies and temporal dynamics while capturing underlying continuous system behavior. A Western European subregion of the Continental Europe Synchronous Area is considered, represented as nodes of a spatial graph constructed using three alternative graph construction rules. Based on real-world data, the proposed model is shown to capture spatially coherent residual load patterns and characteristic temporal dynamics across regions, while performance varies across space, seasons, and hours of the day.
+Code for the thesis: **Spatio-temporal residual load modeling via graph neural operators**
+
+## Overview
+
+This repository contains code to develop a data-driven approach to residual load modeling in space and time using Graph Neural Operators (GNOs).
+
+### Main Files
+
+- **'main_GNO_training.py'** contains the code for the training of the GNO after hyperparameter optimization. It creates an artifact.
+
+- **'analysis.py'** provides the script to analyze the generated artifacts.
+
+- **'Stage_1.py'** includes the Stage 1 hyperparameter optimization procedure.
+
+- **'Stage_2.py'** includes the Stage 2 hyperparameter optimization procedure.
