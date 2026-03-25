@@ -2,7 +2,7 @@
 
 Code for the thesis: **Spatio-temporal residual load modeling via graph neural operators**
 
-## Overview
+## Content
 
 This repository contains code to develop a data-driven approach to residual load modeling in space and time using Graph Neural Operators (GNOs).
 
