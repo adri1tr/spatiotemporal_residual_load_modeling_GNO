@@ -10,7 +10,7 @@ This repository contains code to develop a data-driven approach to residual load
 
 - **'main_GNO_training.ipynb'** contains the code for the training of the GNO after hyperparameter optimization. It creates an artifact.
 
-- **'GNO_artifact_analysis.ipynb'** provides the script to analyze the generated artifacts.
+- **'GNO_Artifact_Analysis.ipynb'** provides the script to analyze the generated artifacts.
 
 - **'Stage_1.ipynb'** includes the Stage 1 hyperparameter optimization procedure.
 
